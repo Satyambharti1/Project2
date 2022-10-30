@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEA00"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/white_cueve_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="SIGNUP"
+            android:textColor="#0C0C0C"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/mobilenumberinput"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/inputbg_xml"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Enter your mobile number"
+            android:inputType="textPersonName"
+            android:textColor="#070707"
+            android:textColorHint="#131212"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/otpsendbtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="#07E479"
+            android:text="Send Otp"
+            android:textColor="#0E0A0A"
+            app:cornerRadius="20dp" />
+
+        <EditText
+            android:id="@+id/otpinputtext"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/inputbg_xml"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Enter Otp"
+            android:inputType="textPersonName"
+            android:textColor="#070707"
+            android:textColorHint="#131212"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/verifyotpbtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="#07E479"
+            android:text="Verify Otp"
+            android:textColor="#0B0A0A"
+            app:cornerRadius="20dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="other login options"
+            android:textColor="#050505"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/googleimg"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            app:srcCompat="@drawable/google" />
+
+    </LinearLayout>
+</LinearLayout>

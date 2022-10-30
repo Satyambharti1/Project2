@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="type here your doubt question for give solution??"
+        android:inputType="textMultiLine"
+        android:textColor="#171111"
+        android:textColorHint="#ED3D06"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="250dp"
+        android:layout_weight="1"
+        android:backgroundTint="#18D620"
+        android:text="POST"
+        android:textColor="#070707"
+        android:textSize="16sp" />
+</LinearLayout>
